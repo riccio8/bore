@@ -14,7 +14,7 @@ use clap::{error::ErrorKind, CommandFactory, Parser, Subcommand};
 struct Args {
     #[clap(subcommand)]
     command: Command,
-    #[clap(short, long)]
+    #[clap(long)]
     log: bool,
 }
 
